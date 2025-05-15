@@ -1,0 +1,107 @@
+body{background-image: url(imagenes/fondoanimado.gif);/*agrega la imagen*/
+background-size: content;/*la imagen puesta aumente y lo encaja a la medida*/
+}
+
+#marco {
+width:90%; /*modifica el tamaño*/
+margin:50px auto; /*modifica la posicion*/
+padding:15px; /*modifica la separacion de los elementos en la caja*/
+background-image: url(imagenes/fondoanimado.gif); /*agrega la imagen*/
+background-size: cover; /*sobrepasa la medida de la imagen puesta */
+}
+#marco img{max-width: 100%} /*maximiza la imagen*/
+
+#cabecera{
+    border: 2px solid grey; /*agrega bordes con su respectivo color*/
+    display:flex; /*crea una caja*/
+    flex-direction: row; /*direccion en donde se situa los elementos*/
+    justify-content: space-between; /*espacio que ocupa los elementos*/
+    background-image: url(imagenes/fondoanimado.gif); /*agrega una imagen*/
+    background-size: cover;/*sobrepasa la medida de la imagen puesta */
+    width: 100%;/*modifica el tamaño*/
+    padding: 15px;/*modifica la separacion de los elementos en la caja*/
+    margin-left: -20px; /*situa la caja u elemento a la derecha*/
+    
+    
+
+
+}
+.search {
+align-self: center; /*alinea el texto del mismo elemento */
+width: auto;} /*modifica el tamaño en modo automatico*/
+.logo{
+    width: auto;/*modifica el tamaño en modo automatico*/
+}
+#content{
+    border: 3px solid grey;/*agrega bordes con su respectivo color*/
+    display:flex;/*crea una caja*/
+    flex-direction: row;/*direccion en donde se situa los elementos*/
+    justify-content: space-between;/*espacio que ocupa los elementos*/
+    background-image: url(imagenes/fondoanimado.gif);/*agrega una imagen*/
+    background-size: cover;/*sobrepasa la medida de la imagen puesta */
+
+
+}
+.chapter{
+    width: 29%;/*modifica el tamaño*/
+    padding:10px;/*modifica la separacion de los elementos en la caja*/
+}
+.chapter img{
+    width:100%/*modifica el tamaño*/
+}
+
+
+#pie{
+    border: 2px solid grey;/*agrega bordes con su respectivo color*/
+    display: flex;/*crea una caja*/
+    flex-direction: center center;/*direccion en donde se situa los elementos*/
+    justify-content: center;/*espacio que ocupa los elementos*/
+    background-image: url(imagenes/fondoanimado.gif);/*agrega una imagen*/
+    background-size: cover;/*sobrepasa la medida de la imagen puesta */
+    content-visibility: auto; /*ayuda a minimizar y conservar el elemento*/
+    width: 100%;/*modifica el tamaño*/
+
+
+}
+#pie img{width: 70%;/*modifica el tamaño*/
+    margin-left: 80px;/*situa la caja u elemento a la derecha*/
+}
+h1{
+    text-align: center;/*alinea el texto*/
+    color: white;}/*da color al elemento*/
+h2{
+    color: rgb(214, 162, 30);/*da color al elemento*/
+font-size: 100%; /*modifica el tamaño de la fuente*/
+text-align: center center;/*alinea el texto*/
+text-align-last: center;/*alinea el final del texto*/
+content-visibility: visible;/*ayuda a minimizar y conservar el elemento*/
+
+}
+h3{
+    color: rgb(214, 162, 30);/*da color al elemento*/
+    font-size: 100%; /*modifica el tamaño de la fuente*/
+    text-align: center;/*alinea el texto*/
+    text-align-last: center;/*alinea el final del texto*/
+    content-visibility: visible;/*ayuda a minimizar y conservar el elemento*/
+    
+
+}
+h4{
+    color: rgb(214, 162, 30);/*da color al elemento*/
+    font-size: 100%; /*modifica el tamaño de la fuente*/
+    text-align:center;/*alinea el texto*/
+    text-align-last: center;/*alinea el final del texto*/
+    content-visibility: visible;/*ayuda a minimizar y conservar el elemento*/
+    margin-top: 10px;/*situa al elemento en su respectivo lugar*/
+
+}
+
+p{color: white;}/*da color al elemento*/
+
+br{color: aqua;/*da color al elemento*/
+    text-align: center;/*alinea el texto*/
+}
+
+#si{text-align: center;/*alinea el texto*/
+    font-size: 80%;/*modifica el tamaño de la fuente*/
+}
